@@ -1,0 +1,120 @@
+/* background color to the top navigation */
+.topnav {
+  background-color: black;
+  overflow: auto;
+  font-family: Inconsolata;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float:left;
+  color: white;
+  text-align: center;
+  padding: 59px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: red;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: yellow;
+  color: black;
+}
+
+.top {
+  width: 80px;
+  height: 37px;
+}
+
+body, html {
+  font-family: "Inconsolata", sans-serif;
+}
+
+
+
+.mySlides {
+  width: 1400px;
+  height: 800px;
+  display: flex;
+
+}
+
+.about {
+  text-align: left;
+  max-width: 1500px;
+}
+
+.gbg {
+  background-color: purple;
+}
+
+h5{
+  text-align: center;
+  background-color: black;
+  font-size: 30px;
+  color: white;
+
+}
+
+.menu {
+  text-align: left;
+  max-width: 2000px;
+}
+
+.abg {
+
+  width: 70%;
+}
+
+.menus {
+  width: 70%;
+}
+
+.map {
+  width: 70%;
+}
+
+table {
+  width:50%;
+  border-collapse: separate;
+  border: 1px solid black;
+}
+
+.makanan {
+  background-color: #fff9ae;
+  opacity: .9;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.minuman {
+  background-color: #fff9ae;
+  opacity: .9;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+th {
+  font-size: 20px;
+  font-weight: bolder;
+
+}
+
+
+.button {
+  background-color: cadetblue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
